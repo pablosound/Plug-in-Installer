@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A6049D161BAFF900A2B2EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A6049C161BAFF900A2B2EA /* Cocoa.framework */; };
+		04A6049F161BAFF900A2B2EA /* InstallerPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A6049E161BAFF900A2B2EA /* InstallerPlugins.framework */; };
+		04A604A9161BAFF900A2B2EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04A604A7161BAFF900A2B2EA /* InfoPlist.strings */; };
+		04A604AD161BAFF900A2B2EA /* Plug_in_InstallerPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A604AC161BAFF900A2B2EA /* Plug_in_InstallerPane.m */; };
+		04A604B0161BAFF900A2B2EA /* Plug_in_Installer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A604AE161BAFF900A2B2EA /* Plug_in_Installer.xib */; };
+		04A604B3161BAFF900A2B2EA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04A604B1161BAFF900A2B2EA /* Localizable.strings */; };
+		04A604B5161BAFF900A2B2EA /* InstallerSections.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A604B4161BAFF900A2B2EA /* InstallerSections.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A60499161BAFF900A2B2EA /* Plug in Installer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plug in Installer.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A6049C161BAFF900A2B2EA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		04A6049E161BAFF900A2B2EA /* InstallerPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InstallerPlugins.framework; path = System/Library/Frameworks/InstallerPlugins.framework; sourceTree = SDKROOT; };
+		04A604A1161BAFF900A2B2EA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		04A604A2161BAFF900A2B2EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04A604A3161BAFF900A2B2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04A604A6161BAFF900A2B2EA /* Plug in Installer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Plug in Installer-Info.plist"; sourceTree = "<group>"; };
+		04A604A8161BAFF900A2B2EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04A604AA161BAFF900A2B2EA /* Plug in Installer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plug in Installer-Prefix.pch"; sourceTree = "<group>"; };
+		04A604AB161BAFF900A2B2EA /* Plug_in_InstallerPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plug_in_InstallerPane.h; sourceTree = "<group>"; };
+		04A604AC161BAFF900A2B2EA /* Plug_in_InstallerPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plug_in_InstallerPane.m; sourceTree = "<group>"; };
+		04A604AF161BAFF900A2B2EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Plug_in_Installer.xib; sourceTree = "<group>"; };
+		04A604B2161BAFF900A2B2EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04A604B4161BAFF900A2B2EA /* InstallerSections.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InstallerSections.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A60496161BAFF900A2B2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A6049D161BAFF900A2B2EA /* Cocoa.framework in Frameworks */,
+				04A6049F161BAFF900A2B2EA /* InstallerPlugins.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A6048E161BAFF900A2B2EA = {
+			isa = PBXGroup;
+			children = (
+				04A604A4161BAFF900A2B2EA /* Plug in Installer */,
+				04A6049B161BAFF900A2B2EA /* Frameworks */,
+				04A6049A161BAFF900A2B2EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A6049A161BAFF900A2B2EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A60499161BAFF900A2B2EA /* Plug in Installer.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A6049B161BAFF900A2B2EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A6049C161BAFF900A2B2EA /* Cocoa.framework */,
+				04A6049E161BAFF900A2B2EA /* InstallerPlugins.framework */,
+				04A604A0161BAFF900A2B2EA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A604A0161BAFF900A2B2EA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A604A1161BAFF900A2B2EA /* AppKit.framework */,
+				04A604A2161BAFF900A2B2EA /* CoreData.framework */,
+				04A604A3161BAFF900A2B2EA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		04A604A4161BAFF900A2B2EA /* Plug in Installer */ = {
+			isa = PBXGroup;
+			children = (
+				04A604AB161BAFF900A2B2EA /* Plug_in_InstallerPane.h */,
+				04A604AC161BAFF900A2B2EA /* Plug_in_InstallerPane.m */,
+				04A604AE161BAFF900A2B2EA /* Plug_in_Installer.xib */,
+				04A604B1161BAFF900A2B2EA /* Localizable.strings */,
+				04A604B4161BAFF900A2B2EA /* InstallerSections.plist */,
+				04A604A5161BAFF900A2B2EA /* Supporting Files */,
+			);
+			path = "Plug in Installer";
+			sourceTree = "<group>";
+		};
+		04A604A5161BAFF900A2B2EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A604A6161BAFF900A2B2EA /* Plug in Installer-Info.plist */,
+				04A604A7161BAFF900A2B2EA /* InfoPlist.strings */,
+				04A604AA161BAFF900A2B2EA /* Plug in Installer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A60498161BAFF900A2B2EA /* Plug in Installer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A604B8161BAFF900A2B2EA /* Build configuration list for PBXNativeTarget "Plug in Installer" */;
+			buildPhases = (
+				04A60495161BAFF900A2B2EA /* Sources */,
+				04A60496161BAFF900A2B2EA /* Frameworks */,
+				04A60497161BAFF900A2B2EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plug in Installer";
+			productName = "Plug in Installer";
+			productReference = 04A60499161BAFF900A2B2EA /* Plug in Installer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A60490161BAFF900A2B2EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pablo Aguilar";
+			};
+			buildConfigurationList = 04A60493161BAFF900A2B2EA /* Build configuration list for PBXProject "Plug in Installer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04A6048E161BAFF900A2B2EA;
+			productRefGroup = 04A6049A161BAFF900A2B2EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A60498161BAFF900A2B2EA /* Plug in Installer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A60497161BAFF900A2B2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A604A9161BAFF900A2B2EA /* InfoPlist.strings in Resources */,
+				04A604B0161BAFF900A2B2EA /* Plug_in_Installer.xib in Resources */,
+				04A604B3161BAFF900A2B2EA /* Localizable.strings in Resources */,
+				04A604B5161BAFF900A2B2EA /* InstallerSections.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A60495161BAFF900A2B2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A604AD161BAFF900A2B2EA /* Plug_in_InstallerPane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A604A7161BAFF900A2B2EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A604A8161BAFF900A2B2EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04A604AE161BAFF900A2B2EA /* Plug_in_Installer.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A604AF161BAFF900A2B2EA /* en */,
+			);
+			name = Plug_in_Installer.xib;
+			sourceTree = "<group>";
+		};
+		04A604B1161BAFF900A2B2EA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A604B2161BAFF900A2B2EA /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A604B6161BAFF900A2B2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04A604B7161BAFF900A2B2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04A604B9161BAFF900A2B2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plug in Installer/Plug in Installer-Prefix.pch";
+				INFOPLIST_FILE = "Plug in Installer/Plug in Installer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		04A604BA161BAFF900A2B2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plug in Installer/Plug in Installer-Prefix.pch";
+				INFOPLIST_FILE = "Plug in Installer/Plug in Installer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A60493161BAFF900A2B2EA /* Build configuration list for PBXProject "Plug in Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A604B6161BAFF900A2B2EA /* Debug */,
+				04A604B7161BAFF900A2B2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A604B8161BAFF900A2B2EA /* Build configuration list for PBXNativeTarget "Plug in Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A604B9161BAFF900A2B2EA /* Debug */,
+				04A604BA161BAFF900A2B2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A60490161BAFF900A2B2EA /* Project object */;
+}
